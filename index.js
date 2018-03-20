@@ -1,16 +1,32 @@
 /**
- * Splits has lots of methods that plays with an array of object
+ * Splits a String into an array
  */
-class Splits {
+class Splitter {
 
     let splitter = _defaultSplitter;
-    let splits = [];
+    let pattern = null;
 
-    function setSplitter(splitter) {
+    constructor(pattern = null) {
+        this.pattern = pattern;
+    }
+
+    setPattern(pattern) {
+        this.pattern = pattern;
+    }
+
+    setSplitter(splitter) {
         this.splitter = splitter;
     }
 
-    function _defaultSplitter(input) {
+    split(stringInput) {
+        let result = [];
+        // use the pattern
+
+        
+        return result;
+    }
+
+    _defaultSplitter(input) {
         return input;
     }
 }
