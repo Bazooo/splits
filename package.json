@@ -1,0 +1,23 @@
+{
+  "name": "splits",
+  "version": "0.0.0",
+  "description": "JS library for array of splits",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bazooo/splits.git"
+  },
+  "author": "Mathieu Chan Yee Choy (http://github.com/Bazooo)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bazooo/splits/issues"
+  },
+  "homepage": "https://github.com/Bazooo/splits",
+  "devDependencies": {
+    "mocha": "^5.0.4",
+    "nyc": "^11.6.0"
+  }
+}
